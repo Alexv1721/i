@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading{
+    margin-top: 30px;
+}
+
+.dot{
+background-color: rgba(255, 0, 0,0.7);
+width: 50px;
+height: 50px;
+display: inline-block;
+border: none;
+border-radius: 50%;
+}
+hr{
+    padding: 2px;
+  
+}
+.container{
+    width: 100%;
+    height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.h{
+    font-size: 75px;
+    color: black;
+}
+input{
+    padding: 13px;
+    width: 205px;
+    margin-right: -6px;
+    font-size: 18px;
+    outline: none;
+    text-align:justify;
+    padding-left: 37px;
+}
+button{
+    padding: 13.9px;
+    font-size: 20px;
+    background-color: rgba(255, 0, 0,0.7);
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+gap: 40px;
+}
+
+.subheading{
+    color: red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+margin-bottom: 1px;
+position: relative;
+bottom: 20px;
+
+    font-size: 15PX;
+
+}
+
+.card{
+
+height: auto;
+  
+}
+img{
+    
+width: 90%;
+height: 16vh;
+}
+.cards{
+
+    margin: 80px 16%;
+    display: grid;
+    gap: 64PX;
+grid-template-columns: auto auto auto;
+}
+.des{
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+p{
+ color:gray;   
+ font-size: 10px;    
+}
+h3{
+    font-size: 14px;
+}
+.serimg{
+    width: 24px;
+    border-radius: 50%;
+    height: 24px;
+    position: absolute;
+ margin-left: 9px;
+margin-top: 15px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+    
+}
+.fdot{
+    background-color: rgba(255, 0, 0,0.7);
+width: 8px;
+height: 8px;
+display: inline-block;
+border: none;
+border-radius: 50%;
+}
+.ftext{
+    font-size: 15px;
+}
+body{
+    background-color: rgba(248, 249, 245);
+}
+.arrowimg{
+   
+    width: 35px;
+    height: auto;
+    position: absolute;
+    margin-top: -10px;
+
+}
+.arrow{
+ margin-top: 15px;
+
+
+}
+@media screen and (max-width:630px){
+ .serimg{
+    top: 16vh;
+
+ }
+h3{
+font-size: 24px;
+}
+    input{
+width: 30%;
+    }
+
+   .cards{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 21px;
+ 
+   }
+   .card{
+
+    width:100%;
+   }
+   .h{
+    font-size: 40px;
+   }
+   p{
+    font-size: 17px;
+   }
+   .dot{
+    width: 30px;
+    height: 30px;
+   }
+}
